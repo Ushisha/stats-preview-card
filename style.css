@@ -44,7 +44,7 @@ body {
   width: 540px;
   height: 446px;
 
-  background: url(/images/image-header-desktop.jpg);
+  background: url(http://ushisha.github.io/stats-preview-card/images/image-header-desktop.jpg);
 
   background-size: cover;
   background-repeat: no-repeat;
@@ -115,7 +115,7 @@ body {
     width: 350px;
     height: 250px;
     position: relative;
-    background: url(/images/image-header-mobile.jpg);
+    background: url(http://ushisha.github.io/stats-preview-card/images/image-header-desktop.jpg);
 
     background-size: cover;
     background-repeat: no-repeat;
