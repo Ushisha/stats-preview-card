@@ -148,7 +148,7 @@ body {
     width: 350px;
     height: 290px;
     position: relative;
-    background: url(/images/image-header-desktop.jpg);
+    background: url(http://ushisha.github.io/stats-preview-card/images/image-header-mobile.jpg);
 
     background-size: contain;
     background-repeat: no-repeat;
