@@ -1,30 +1,3 @@
-/* ### Primary
-
-- Very dark blue (main background): hsl(233, 47%, 7%)
-- Dark desaturated blue (card background): hsl(244, 38%, 16%)
-- Soft violet (accent): hsl(277, 64%, 61%)
-
-### Neutral
-
-- White (main heading, stats): hsl(0, 0%, 100%)
-- Slightly transparent white (main paragraph): hsla(0, 0%, 100%, 0.75)
-- Slightly transparent white (stat headings): hsla(0, 0%, 100%, 0.6)
-
-## Typography
-
-### Body Copy
-
-- Font size: 15px
-
-### Font
-
-- Family: [Inter](https://fonts.google.com/specimen/Inter)
-- Weights: 400, 700
-
-- Family: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca)
-- Weights: 400
- */
-
 :root {
   --darkB: hsl(233, 47%, 7%);
   --darkSB: hsl(244, 38%, 16%);
@@ -63,7 +36,6 @@ body {
     "text image";
 
   position: relative;
-  /* border: 1px solid yellow; */
   overflow: hidden;
   border-radius: 10px;
 }
@@ -71,13 +43,11 @@ body {
   grid-area: image;
   width: 540px;
   height: 446px;
-  /* left: 500px; */
 
   background: url(/images/image-header-desktop.jpg);
 
   background-size: cover;
   background-repeat: no-repeat;
-  /* display: flex; */
 }
 .image-container > .color-overlay {
   background-color: var(--purple);
@@ -139,34 +109,23 @@ body {
       "text";
 
     position: relative;
-    /* border: 1px solid yellow; */
-    /* overflow: hidden;
-    border-radius: 10px; */
   }
   .image-container {
     grid-area: image;
     width: 350px;
-    height: 290px;
+    height: 250px;
     position: relative;
-    background: url(/images/image-header-desktop.jpg);
+    background: url(/images/image-header-mobile.jpg);
 
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    /* display: flex; */
   }
-  /* .image-container > .color-overlay {
-    background-color: var(--purple);
-    position: absolute;
 
-    mix-blend-mode: multiply;
-  } */
   .text-container {
     text-align: center;
     padding: 30px 35px;
     width: 350px;
     height: 100%;
-    /* background: var(--darkSB);
-    grid-area: text; */
   }
   .text-content {
     margin: 20px 0;
