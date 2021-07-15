@@ -25,7 +25,3 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - CSS mix-blend-mode: multiply;
-
-## Author
-
-- Ushisha - [https://www.frontendmentor.io/profile/Ushisha](https://www.frontendmentor.io/profile/Ushisha)
