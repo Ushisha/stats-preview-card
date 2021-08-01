@@ -14,7 +14,7 @@ Users should be able to:
 
 ## Links
 
-- Live Site URL: [live site URL](https://ushisha-stats-preview.netlify.app/)
+- Demo: [https://ushisha-stats-preview.netlify.app/](https://ushisha-stats-preview.netlify.app/)
 
 ## My process
 
